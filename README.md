@@ -1,4 +1,3 @@
-
 Django on OpenShift
 ===================
 
@@ -40,7 +39,7 @@ Create a python-2.6 application
 Add this upstream repo
 
     cd django
-    git remote add upstream -m master git://github.com/openshift/django-example.git
+    git remote add upstream -m master git://github.com/tjr9898/django-example.git
     git pull -s recursive -X theirs upstream master
 
 Then push the repo upstream
