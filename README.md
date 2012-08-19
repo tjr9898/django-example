@@ -34,11 +34,11 @@ Install the RHC client tools if you have not already done so:
 
 Create a python-2.6 application
 
-    rhc app create -a django -t python-2.6
+    rhc app create -a <app_name> -t diy-0.1
 
 Add this upstream repo
 
-    cd django
+    cd <app_name>
     git remote add upstream -m master git://github.com/tjr9898/django-example.git
     git pull -s recursive -X theirs upstream master
 
